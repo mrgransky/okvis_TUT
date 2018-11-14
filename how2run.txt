@@ -1,17 +1,13 @@
+Download the dataset:
+
 How to compile:
 
 $ cd /home/farid/WS_Farid/okvis
 
-$ rm -rf build/
-
-$ mkdir cd && cd build
-
-$ cmake -DCMAKE_BUILD_TYPE=Release ..
-
-$ make -j8
+$ ./build_project.sh
 
 How to run a sample program on OKVIS:
 
 $ cd /WS_Farid/okvis/build
 
-$ ./okvis_app_synchronous /home/farid/WS_Farid/okvis/config/config_fpga_p2_euroc.yaml /home/farid/WS_Farid/okvis/dataset/mav0/
+$ ./okvis_app_synchronous /home/farid/WS_Farid/okvis_TUT/config/config_fpga_p2_euroc.yaml /home/farid/datasets/EuRoC/mav0/
