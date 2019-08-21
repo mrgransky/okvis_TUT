@@ -8,6 +8,6 @@ $ ./build_project.sh
 
 How to run a sample program on OKVIS:
 
-$ cd /WS_Farid/okvis/build
+$ cd /WS_Farid/okvis_TUT/build
 
-$ ./okvis_app_synchronous /home/farid/WS_Farid/okvis_TUT/config/config_fpga_p2_euroc.yaml /home/farid/datasets/EuRoC/mav0/
+$ ./okvis_app_synchronous /home/xenial/WS_Farid/okvis_TUT/config/config_fpga_p2_euroc.yaml /home/xenial/Datasets/EuRoC/mav0/
